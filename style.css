@@ -226,7 +226,8 @@ main section h2 {
 .contact-info p {
     margin: 0.8rem 0;
 }
-/*visitor count */
+
+/* Visitor Count Section */
 #visitor-count {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #fff;
@@ -264,6 +265,7 @@ main section h2 {
     margin: 0;
     opacity: 0.9;
 }
+
 /* Footer */
 footer {
     text-align: center;
