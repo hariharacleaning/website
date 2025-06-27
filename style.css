@@ -461,6 +461,17 @@ ul li, ol li {
     border-radius: 10px;
 }
 
+#contact-cards a {
+    color: #f45353 !important;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+#contact-cards a:hover {
+    color: #ff9800 !important;
+    text-decoration: underline;
+}
+
 #our-services {
     background: #000;
     color: #fff;
