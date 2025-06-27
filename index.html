@@ -17,12 +17,21 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
+            <div class="logo" style="margin-right:auto;">
                 <a href="index.html"><h1>Hari Hara Cleaning Services</h1></a>
             </div>
-            <ul>
-                <li><a href="#services">Our Services</a></li>
-                <li><a href="#consultation">Consultation</a></li>
+            <ul style="margin-left:auto;">
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Our Services <span class="arrow"></span></a>
+                    <div class="dropdown-content">
+                        <a href="residential-cleaning.html">Residential Cleaning</a>
+                        <a href="residential-deep-cleaning.html">Residential Deep Cleaning</a>
+                        <a href="house-cleaning.html">House Cleaning</a>
+                        <a href="house-deep-cleaning.html">House Deep Cleaning</a>
+                        <a href="office-cleaning.html">Office Cleaning</a>
+                        <a href="office-deep-cleaning.html">Office Deep Cleaning</a>
+                    </div>
+                </li>
                 <li><a href="#contact-cards">Contact Us</a></li>
             </ul>
         </nav>
@@ -33,69 +42,34 @@
             <div class="hero-content">
                 <h2>Professional Cleaning Services You Can Trust</h2>
                 <p>Let us do the dirty work, so you don't have to!</p>
-                <a href="tel:+919963226155" class="cta-button">Book Appointment</a>
+                <a href="consultation.html" class="cta-button">Book Appointment</a>
             </div>
         </section>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <div class="service-cards">
-                <div class="card">
-                    <img src="resi.jpg" alt="Residential Cleaning">
-                    <h3>Residential Cleaning</h3>
-                    <p>Enjoy a spotless, fresh home without lifting a finger. Our residential cleaning service covers every room with detailed attention — from dusting and vacuuming to kitchen and bathroom sanitization. 
-                    </p>
-                </div>
-                
-                <div class="card">
-                    <img src="resideep.jpg" alt="Residential Deep Cleaning">
-                    <h3>Residential Deep Cleaning</h3>
-                    <p>Our deep cleaning service goes beyond the surface to tackle built-up dirt, grime, and hidden dust in every corner of your home. Perfect for seasonal refreshes, post-event cleanups, or moving in/out — we leave your space truly clean, sanitized, and refreshed from top to bottom.
-
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="house_cleaning.jpg" alt="House Cleaning">
-                    <h3>House Cleaning</h3>
-                    <p>Keep your home sparkling clean with our reliable house cleaning services. From dusting and sweeping to sanitizing kitchens and bathrooms, we ensure every corner of your space looks and feels fresh, tidy, and inviting.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="housedeep.jpg" alt="House Deep Cleaning">
-                    <h3>House Deep Cleaning</h3>
-                    <p>Our house deep cleaning service is designed to reach the areas regular cleaning misses. We scrub, sanitize, and detail every room — including behind appliances, baseboards, and hard-to-reach spots — for a truly refreshed, hygienic home you can feel great about.</p>
-                </div>
-                <div class="card">
-                    <img src="office.jpg" alt="Office Cleaning">
-                    <h3>Office Cleaning</h3>
-                    <p>Create a clean, organized, and productive workspace with our expert office cleaning services. We handle dusting, disinfecting, trash removal, and floor care to maintain a spotless environment that makes a great impression on clients and keeps your team healthy and focused.
-
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="officedeep.jpg" alt="Office Deep Cleaning">
-                    <h3>Office Deep Cleaning</h3>
-                    <p>Our office deep cleaning service goes beyond routine maintenance to deliver a thorough, top-to-bottom clean. We disinfect high-touch areas, detail workstations, clean behind furniture, and target hidden dust and grime — ensuring a healthier, fresher, and more professional workspace.</p>
-                </div>
-                
-            </div>
-        </section>
-
-        <section id="testimonials">
-            <h2>What Our Clients Say</h2>
-            <div class="testimonial-container">
-                <div class="testimonial">
-                    <p>"The services offered were really good and you can count on them"</p>
-                    <span>- A. Kumar</span>
-                </div>
-                <div class="testimonial">
-                    <p>"The team was professional, punctual, and very thorough. Our office looks fantastic."</p>
-                    <span>- S. Patel</span>
-                </div>
-                <div class="testimonial">
-                    <p>"A fantastic service from start to finish. I couldn't be happier with the results."</p>
-                    <span>- R. Sharma</span>
-                </div>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <h3>Our Aim</h3>
+                <p>To provide the highest quality cleaning services in Hyderabad, ensuring customer satisfaction and a healthier environment for all our clients.</p>
+                <h3>Our Mission</h3>
+                <p>To deliver reliable, professional, and affordable cleaning solutions for homes and offices, using eco-friendly products and modern techniques.</p>
+                <h3>Our Vision</h3>
+                <p>To be the most trusted and preferred cleaning service provider in India, known for our commitment to excellence and customer care.</p>
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Experienced and trained cleaning professionals</li>
+                    <li>Use of safe and eco-friendly cleaning products</li>
+                    <li>Flexible scheduling and customized cleaning plans</li>
+                    <li>Transparent pricing and no hidden charges</li>
+                    <li>100% satisfaction guarantee</li>
+                </ul>
+                <h3>Our Values</h3>
+                <ul>
+                    <li>Integrity</li>
+                    <li>Reliability</li>
+                    <li>Customer Focus</li>
+                    <li>Continuous Improvement</li>
+                </ul>
             </div>
         </section>
 
@@ -116,24 +90,6 @@
                     <p><a href="mailto: hariharacleaningservice55@gmail.com">hariharacleaningservice55@gmail.com</a></p>
                 </div>
             </div>
-        </section>
-
-        <section id="consultation">
-            <h2>Request a Free Consultation</h2>
-            <!-- 
-                To make this form work, you need to replace YOUR_FORM_ID with your own Formspree form ID.
-                1. Go to https://formspree.io/
-                2. Create a new form.
-                3. Copy the form ID from the integration page.
-                4. Replace YOUR_FORM_ID in the action URL below.
-            -->
-            <form id="consultation-form" action="https://formspree.io/f/xanjpwqr" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <input type="tel" name="phone" placeholder="Your Phone Number">
-                <textarea name="message" placeholder="Tell us about your cleaning needs"></textarea>
-                <button type="submit">Submit Request</button>
-            </form>
         </section>
 
         <section id="contact">
